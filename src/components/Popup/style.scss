@@ -1,0 +1,32 @@
+.pop-wrapper {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,.3);
+  .pop-content {
+    width: 100%;
+    position: absolute;
+  }
+  .top {
+    top: 0;
+  }
+  .bottom {
+    bottom: 0;
+  }
+  .bottom-enter-active, .bottom-leave {
+    transition: all .5s;
+    transform: translateY(0);
+  }
+  .top-enter-active, .top-leave {
+    transition: all .5s;
+    transform: translateY(0);
+  }
+  .top-enter, .top-leave-active {
+    transform: translateY(-100%);
+  }
+  .bottom-enter, .bottom-leave-active {
+    transform: translateY(100%);
+  }
+}

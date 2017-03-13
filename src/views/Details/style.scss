@@ -1,0 +1,142 @@
+.details {
+  position: relative;
+  height: 100%;
+  background: #f0f0f0;
+  .head {
+    background: #fff;
+    .status {
+      position: relative;
+      height: 90px;
+      line-height: 90px;
+      padding-left: 90px;
+      border-bottom: 1px solid #ccc;
+      img {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 25px;
+        left: 30px;
+      }
+    }
+    .tips {
+      padding: 20px 30px;
+      p {
+        position: relative;
+        font-size: 28px; /*px*/
+        padding-left: 20px;
+        &:before {
+          content: "";
+          display: block;
+          width: 0;
+          height: 0;
+          border: 4px solid #999;
+          border-radius: 50%;
+          position: absolute;
+          left: 0;
+          top: 18px;
+        }
+      }
+    }
+  }
+  .order {
+    background: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    .head {
+      padding: 20px 30px;
+      border-bottom: 1px solid #ccc;
+      color: #000;
+    }
+    .info {
+      padding: 20px 30px;
+      display: flex;
+    }
+    .info-l {
+      flex: 1;
+      padding-top: 10px;
+      &>p {
+        font-size: 26px; /*px*/
+        color: #999;
+        margin-bottom: 20px;
+      }
+      .span-l {
+        display: inline-block;
+        margin-right: 30px;
+        min-width: 104px;
+      }
+    }
+    .info-r {
+      width: 150px;
+      text-align: right;
+      .num {
+        font-size: 38px; /*px*/
+        color: #f04141;
+        margin-top: 30px;
+      }
+      .type {
+        font-size: 28px; /*px*/
+        margin-top: 10px;
+      }
+    }
+    .tips {
+      padding: 15px 0;
+      border-top: 1px dashed #ccc;
+      position: relative;
+      padding-left: 30px;
+      background: #fff9d6;
+      .tips-text {
+        font-size: 24px; /*px*/
+        color: #cec49c;
+      }
+    }
+  }
+  .bottom {
+    background: #fff;
+    margin-top: 13px;
+    .list {
+      position: relative;
+      padding: 23px 60px 23px 90px;
+      border-bottom: 1px solid #ccc;
+      &:after {
+        content: "";
+        display: block;
+        width: 15px;
+        height: 15px;
+        border-style: solid;
+        border-width: 4px 4px 0 0;
+        border-color:  #ccc;
+        position: absolute;
+        top: 50%;
+        right: 30px;
+        transform: translate(-50%, -50%) rotate(45deg);
+      }
+      img {
+        width: 30px;
+        position: absolute;
+        left: 50px;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+  .btn {
+    height: 130px;
+    width: 100%;
+    position: absolute;
+    background: #fafafa;
+    bottom: 0;
+    border-top: 1px solid #ccc;
+    padding: 20px;
+    button {
+      width: 100%;
+      height: 100%;
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  }
+}
+
+    
